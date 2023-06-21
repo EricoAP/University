@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <title>Bingo</title>
+</head>
+
+<body>
+  <header>
+    <h1>BINGO</h1>
+  </header>
+
+  <main>
+    <div class="cartelas">
+      <h2>Cartelas</h2>
+      <label for="">Nome do Jogador:</label>
+      <input type="text" id="player-name-input">
+      <button id="add-card-button">Adicionar Cartão</button>
+      <button id="play-button" disabled>Jogar</button>
+      <button id="reset-button">Reiniciar o jogo</button>
+      <div id="card-container"></div>
+    </div>
+
+    <div class="numeros">
+      <h2>Sorteio</h2>
+      <div id="bingo-numbers"></div>
+      <div id="message-container"></div>
+    </div>
+  </main>
+
+  <footer>
+    Developed by @erico.pedrosa
+  </footer>
+
+  <script src="index.js"></script>
+</body>
+
+</html>
